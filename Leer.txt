@@ -1,0 +1,10 @@
+El sistema propuesto no pretende sustituir a un Scada, es solo una propuesta de uno que podría dar un apoyo logístico, un programa en Python leerá la telemetría Modbus que viene de las RTUs y escribirá un archivo .csv  a la vez le siniestrara la data a un Js para que a través del 8080 el usuario pueda ver en linea que esta pasando en cada pozo (sus alarmas), el 8n8 estará leyendo el archivo y gestionara todas las directrices gerenciales para mantener todo bajo seguridad, si hay una alarma, notificara via telegram, correo, ntfy al personal encargado, de guardia y supervisores.
+Modo de prueba:
+descargue el .zip en una carpeta, ejecute el programa  que simula las señales, luego el server y en su navegador http://127.0.0.1:8080
+
+Usos: 
+Una empresa petrolera pequeña, de manera temprana podría implementar un Scada a bajo costo mientras se desarrolla en el campo
+Una empresa de servicios y mantenimiento a pozos petroleros: puede incluir en su contrato que le compratan la telemetria modbus de los pozos a los que dará servisico asi su personal podrá actuar en alerta temprana a cualquier evento, mejorando los SLAs
+
+Cualquier dida escribirme a fhfermin@gmail.com
+  
